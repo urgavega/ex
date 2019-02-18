@@ -1,0 +1,7 @@
+Sorry for the inconvenience. Please try the following commands:
+sudo apt-get update
+sudo apt-get install libgmp-dev
+sudo apt-get install php7.0-gmp
+
+You might need to add the following to your php.ini file:
+extension=php_gmp.so
